@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio - Contact</title>
+    <link rel="stylesheet" href="./shared.css" />
+    <link rel="stylesheet" href="./contact.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style></style>
+  </head>
+
+  <body>
+    <!-- Header section-->
+    <header class="main-header">
+      <div class="container">
+        <div class="logo">
+          <a href="index.html">
+            <img src="./images/logo.jpg" alt="LOGO" />
+          </a>
+        </div>
+        <nav class="main-navigation">
+          <ul class="main-navigation__items">
+            <li class="main-navigation__item">
+              <a href="./index.html">Tiykarg'i</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Men haqqimda</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Xizmetler</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Klientler</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="#">Sherikler</a>
+            </li>
+            <li class="main-navigation__item">
+              <a href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header section-->
+    <div class="container">
+      <section class="contact">
+        <div class="section-title">Men menen baylaniw</div>
+        <form action="/server.php" method="GET" class="form1">
+          <textarea
+            name=""
+            id=""
+            rows="10"
+            placeholder="Xabarin'izdi kiritin'"
+            name="message"
+          ></textarea>
+          <div class="half-flex">
+            <div class="contact__firstname">
+              <input
+                type="text"
+                placeholder="Atin'izdi kiritin'"
+                name="firstname"
+              />
+            </div>
+            <div class="contact__email">
+              <input
+                type="email"
+                placeholder="E-mail adresin'izdi kiritin'"
+                name="email"
+              />
+            </div>
+          </div>
+          <input
+            type="text"
+            placeholder="Xat mazmuni haqqinda"
+            name="Subject"
+          />
+          <button class="button contact__send" type="submit">
+            Xabardi jiberiw
+          </button>
+        </form>
+      </section>
+    </div>
+    <!-- Footer section-->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__brand">
+          <img src="./images/logo.jpg" alt="Logo" />
+        </div>
+        <nav class="footer__navigation">
+          <ul class="footer__navigation-items">
+            <li class="footer__navigation-item">
+              <a href="#">Tiykarg'i</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Men haqqimda</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Xizmetler</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Klientler</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Portfolio</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Blog</a>
+            </li>
+            <li class="footer__navigation-item">
+              <a href="#">Sherikler</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="footer__socials">
+          <ul>
+            <li class="footer__social">
+              <a href="#">
+                <i class="fab fa-telegram"></i>
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="footer__social">
+              <a href="#">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="copyright">Copyright © 2024 all rights reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
